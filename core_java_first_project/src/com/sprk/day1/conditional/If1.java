@@ -31,6 +31,7 @@ public class If1 {
 
 /*
  * 1. WAP to check whether the number is zero or non zero
+ * num == 0
  * 2. WAP to check greatest of 2 numbers
  * 
  * */
