@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 //input = 1, conditions = 2
 public class If3 {
-
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -20,8 +19,7 @@ public class If3 {
 			
 		}else {
 			
-			System.out.println("Number = "+num+" is not divisible by 3 and 5 both");
-			
+			System.out.println("Number = "+num+" is not divisible by 3 and 5 both");	
 		}
 		
 	}
