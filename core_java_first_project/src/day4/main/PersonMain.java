@@ -1,4 +1,6 @@
-package day4;
+package day4.main;
+
+import day4.Person;
 
 public class PersonMain {
 	
@@ -14,6 +16,15 @@ public class PersonMain {
 		
 		Person p3 = new Person("Abdul Gani", 26, "Male");
 		p3.display();
+		
+		p3.setName("Memon Abdul Gani");
+		
+		p3.display();
+		
+		System.out.println(p1);
+		System.out.println(p2);
+		System.out.println(p3);
+		Object
 	}
 
 }
