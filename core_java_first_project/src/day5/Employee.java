@@ -4,9 +4,9 @@ import day5.base.Person;
 
 public class Employee extends Person {
 
-	private int empId;
+	protected int empId;
 
-	private double salary;
+	protected double salary;
 
 	public Employee() {
 		System.out.println("Default constructor of Employee");
@@ -44,6 +44,22 @@ public class Employee extends Person {
 	public String toString() {
 		return "Employee [empId=" + empId + ", salary="
 				+ salary + "]"+super.toString();
+	}
+	
+	// If salary > 15000 then -10%
+	public void deductTax() {
+		
+		if(salary >= 15000) {
+			double taxAmount = salary * 0.1;
+			
+			System.out.println("Deducting 10% of salary: "+salary+" = "+taxAmount);
+			
+			salary = salary - taxAmount;
+					
+		}else {
+			System.out.println("No tax deducted");
+		}
+		
 	}
 	
 
