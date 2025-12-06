@@ -1,5 +1,6 @@
 package day5.polymorphism.run;
 
+//Derived Class
 public class Dog extends Animal {
 
 	@Override
